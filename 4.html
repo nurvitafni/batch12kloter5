@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="125" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.lineTo(200,100);
+ctx.fillText("D",20,15);
+ctx.fillText("U",40,30);
+ctx.fillText("M",60,45);
+ctx.fillText("B",80,60);
+ctx.fillText("W",100,75);
+ctx.fillText("A",120,90);
+ctx.fillText("Y",140,105);
+ctx.fillText("S",160,120);
+ctx.stroke()
+</script>
+
+</body>
+</html>
